@@ -1,0 +1,145 @@
+.final-body {
+      background-color: #780000;
+      color: #ffffff;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .final-header {
+      width: 100%;
+      padding: 12px 18px;
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .final-voltar {
+      background-color: #f5f0e8;
+      color: #780000;
+      border: none;
+      border-radius: 22px;
+      padding: 7px 18px;
+      font-size: 13px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+
+    .final-title {
+      color: #f5f0e8;
+      font-size: 28px;
+      font-weight: 700;
+      text-align: center;
+      margin: 8px 0 18px 0;
+    }
+
+    .final-form-container {
+      background-color: #3d0d0d;
+      width: 88%;
+      max-width: 380px;
+      border-radius: 18px;
+      padding: 18px 16px 22px;
+    }
+
+    .form-label {
+      color: #f5a623;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      display: block;
+    }
+
+    .form-input {
+      width: 100%;
+      background-color: #1a1a1a;
+      border: none;
+      border-radius: 6px;
+      padding: 9px 11px;
+      color: #aaaaaa;
+      font-size: 13px;
+      margin-bottom: 12px;
+      outline: none;
+    }
+
+    .options-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .option-btn {
+      flex: 1;
+      background-color: #1a1a1a;
+      color: #aaaaaa;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 10px;
+      font-size: 13px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .option-btn.active {
+      background-color: #f5a623;
+      color: #780000;
+      font-weight: bold;
+    }
+
+    .payment-row {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+
+    .payment-btn {
+      flex: 1;
+      background-color: #1a1a1a;
+      color: #aaaaaa;
+      border: none;
+      border-radius: 6px;
+      padding: 7px 4px;
+      font-size: 11px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+    }
+
+    .payment-btn.active {
+      background-color: #f5a623;
+      color: #780000;
+      font-weight: bold;
+    }
+
+    .confirm-btn {
+      width: 100%;
+      background-color: #1a1a1a;
+      color: #aaaaaa;
+      border: none;
+      border-radius: 22px;
+      padding: 11px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .final-footer {
+      margin-top: auto;
+      padding: 12px 15px;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .final-logo {
+      font-size: 10px;
+      color: #f5f0e8;
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }

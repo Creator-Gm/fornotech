@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etapa Final - Esfiharia</title>
+  <link rel="stylesheet" href="css/rr.css">
+</head>
+<body class="final-body">
+
+  <!-- Header com Voltar -->
+  <div class="final-header">
+    <button class="final-voltar" onclick="voltarParaHome()">Voltar</button>
+  </div>
+
+  <!-- Título -->
+  <h1 class="final-title">Etapa final</h1>
+
+  <!-- Formulário -->
+  <div class="final-form-container">
+
+    <!-- Nome -->
+    <label class="form-label">Nome</label>
+    <input type="text" id="nome" class="form-input" placeholder="Digite seu nome">
+
+    <!-- Endereço -->
+    <label class="form-label">Endereço, numero, bairro</label>
+    <input type="text" id="endereco" class="form-input" placeholder="Endereço, numero, bairro">
+
+    <!-- Telefone -->
+    <label class="form-label">Numero de telefone</label>
+    <input type="tel" id="telefone" class="form-input" placeholder="numero de telefone">
+
+    <!-- Entrega / Retirada -->
+    <label class="form-label">Entrega</label>
+    <div class="options-row">
+      <button class="option-btn active" id="btnEntrega" onclick="selecionarOpcao('entrega')">Entrega</button>
+      <button class="option-btn" id="btnRetirada" onclick="selecionarOpcao('retirada')">Retirada</button>
+    </div>
+
+    <!-- Forma de pagamento -->
+    <label class="form-label">Forma de pagamento</label>
+    <div class="payment-row">
+      <button class="payment-btn active" id="btnDinheiro" onclick="selecionarPagamento('dinheiro')">
+        💰 Dinheiro
+      </button>
+      <button class="payment-btn" id="btnPix" onclick="selecionarPagamento('pix')">
+        📱 pix
+      </button>
+      <button class="payment-btn" id="btnCartao" onclick="selecionarPagamento('cartao')">
+        💳 cartão
+      </button>
+    </div>
+
+    <!-- Botão Confirmar -->
+    <button class="confirm-btn" onclick="confirmarPedido()">confirmar seu pedido</button>
+
+  </div>
+
+  <!-- Footer com logo -->
+  <div class="final-footer">
+    <div class="final-logo">
+      <span>Mundo do Pão</span>
+    </div>
+  </div>
+
+  <script src="js/car.js"></script>
+    
+</body>
+</html>
