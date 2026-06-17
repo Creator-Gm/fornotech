@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    min-height: 100px;
-
+  min-height: 100px;
 }
 
-html, body {
-
+html,
+body {
   width: 100%;
   background-color: #570000;
   color: #ffffff;
@@ -60,13 +59,12 @@ html, body {
   transition: opacity 0.15s;
 }
 
-
 .header-right img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #F5A623;
+  border: 2px solid #f5a623;
 }
 
 .tabs {
@@ -102,7 +100,7 @@ html, body {
 }
 
 .salgadas-row {
-  background-color: #F5A623;
+  background-color: #f5a623;
   padding: 10px 12px 10px 0;
   display: flex;
   align-items: stretch;
@@ -137,12 +135,12 @@ html, body {
   min-height: 100px;
   flex-shrink: 0;
   cursor: pointer;
-  transition: opacity 0.15s, transform 0.15s;
+  transition:
+    opacity 0.15s,
+    transform 0.15s;
 }
-.doce-label{
-font-size: 15px;
-
-
+.doce-label {
+  font-size: 15px;
 }
 
 .doces-row {
@@ -164,7 +162,9 @@ font-size: 15px;
   min-height: 94px;
   flex-shrink: 0;
   cursor: pointer;
-  transition: opacity 0.15s, transform 0.15s;
+  transition:
+    opacity 0.15s,
+    transform 0.15s;
 }
 
 .combos-section {
@@ -188,8 +188,8 @@ font-size: 15px;
   color: #871509;
   font-size: 20px;
   font-weight: 700;
-    min-height: 59px;
-width: 150px;
+  min-height: 59px;
+  width: 150px;
   border-radius: 8px;
   padding: 5px 12px;
   display: flex;
@@ -199,7 +199,7 @@ width: 150px;
   position: relative;
   top: -20px;
   padding-left: 40px;
-   align-items: center;
+  align-items: center;
 }
 
 .combos-grid {
@@ -208,7 +208,6 @@ width: 150px;
   gap: 12px;
   flex: 1;
   min-height: 0;
-  
 }
 
 .combos-grid-top {
@@ -246,31 +245,30 @@ width: 150px;
 }
 
 .combo-orange-bar {
-  background-color: #FDA202;
+  background-color: #fda202;
   height: 50px;
   width: auto;
   border-radius: 10px;
 }
 
 .combo-card.highlight {
-  background-color: #F5A623;
+  background-color: #f5a623;
 }
 
+.item-card {
+  width: 196 px;
 
-  .item-card {
-    width: 196      px;
+  min-height: 300px;
+}
 
-    min-height: 300px;
-  }
-
-  .doce-card {
-    width: 192px;
-    min-height: 100px;
-  }
-.redblock{
+.doce-card {
+  width: 192px;
+  min-height: 100px;
+}
+.redblock {
   background-color: #5b160e;
   height: 600px;
-width: 600px;
-margin-left: 300px;
-margin-top: 20px;
+  width: 600px;
+  margin-left: 300px;
+  margin-top: 20px;
 }
