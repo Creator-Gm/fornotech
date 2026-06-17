@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esfiharia</title>
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <button class="btn-voltar" onclick="voltar()">Voltar</button>
+  </div>
+
+  <div class="container">
+
+    <!-- Top -->
+    <div class="top">
+      <div>
+        <div class="title">peça a melhor<br>esfih a</div>
+        <div class="mini-buttons">
+          <button class="mini-btn" onclick="mostrarSalgadas()">salgadas</button>
+          <button class="mini-btn" onclick="mostrarDoces()">doces</button>
+        </div>
+      </div>
+      <div>
+      </div>
+    </div>
+
+    <!-- Salgadas -->
+    <div class="row">
+      <div class="label">salgadas e<br>sabores imperdíveis</div>
+      <div class="yellow-strip">
+        <div class="dark-box" onclick="selecionar('Salgada Carne')"></div>
+        <div class="dark-box" onclick="selecionar('Salgada Queijo')"></div>
+        <div class="dark-box" onclick="selecionar('Salgada Presunto')"></div>
+      </div>
+      <div style="margin-left: 4px; display: flex; gap: 4px;">
+        <div class="white-box" onclick="selecionar('Clássica')"></div>
+        <div class="white-box" onclick="selecionar('Especial')"></div>
+      </div>
+    </div>
+
+    <!-- Doces -->
+    <div class="row">
+      <div class="label">doces e<br>sabores imperdíveis</div>
+      <div style="margin-left: 4px; display: flex; gap: 4px;">
+        <div class="white-box" onclick="selecionar('Doce Chocolate')"></div>
+        <div class="white-box" onclick="selecionar('Doce Goiabada')"></div>
+        <div class="white-box" onclick="selecionar('Doce Banana')"></div>
+        <div class="white-box" onclick="selecionar('Doce Maçã')"></div>
+        <div class="white-box" onclick="selecionar('Doce Nutella')"></div>
+      </div>
+    </div>
+
+    <!-- Combos -->
+    <button class="combos-btn" onclick="mostrarCombos()">combos</button>
+
+    <!-- Bottom cards -->
+    <div class="bottom-row">
+      <div class="big-card" onclick="selecionar('Combo Familiar')"></div>
+      <div class="big-card" onclick="selecionar('Combo Duplo')"></div>
+    </div>
+
+    <!-- Yellow bottom -->
+    <div class="yellow-bar">
+      <div class="yellow-inner" onclick="selecionar('Destaque do Dia')"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

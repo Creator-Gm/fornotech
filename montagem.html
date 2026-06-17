@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esfiharia</title>
+  <link rel="stylesheet" href="css/montagem.css">
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <span class="logo">Esfiharia</span>
+    <div>
+              <button class="btnvoltar2" id="btnvoltar2">Voltar</button>
+
+      <button class="btn-voltar" onclick="cancelar()">Cancelar</button>
+      <button class="btn-finalizar" onclick="finalizar()">finalizar</button>
+    </div>
+  </div>
+
+  <!-- Carrinho Section -->
+  <div class="carrinho-bg">
+    <div class="carrinho-box">
+      Carrinho 🛒
+    </div>
+  </div>
+
+  <!-- Beige Area with Cart Slots -->
+  <div class="beige-area">
+    <div class="cart-slots">
+      <div id="cart0" class="cart-slot" onclick="removeFromCart(0)"></div>
+      <div id="cart1" class="cart-slot" onclick="removeFromCart(1)"></div>
+      <div id="cart2" class="cart-slot" onclick="removeFromCart(2)"></div>
+    </div>
+  </div>
+
+  <!-- Monte a sua esfiha Title -->
+  <div class="build-title">
+    Monte a sua esfiha
+  </div>
+
+  <!-- Build Slots -->
+  <div class="build-area">
+    <div class="yellow-box">
+      <div class="build-slots">
+        <div id="build0" class="build-slot" onclick="removeFromBuild(0)"></div>
+        <div id="build1" class="build-slot" onclick="removeFromBuild(1)"></div>
+        <div id="build2" class="build-slot" onclick="removeFromBuild(2)"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls / Functionality -->
+  <div class="controls">
+    <p class="controls-title">Escolha os ingredientes (clique para preencher os slots):</p>
+    <div>
+      <button class="ingredient-btn" onclick="addIngredient('Carne')">Carne</button>
+      <button class="ingredient-btn" onclick="addIngredient('Queijo')">Queijo</button>
+      <button class="ingredient-btn" onclick="addIngredient('Presunto')">Calabresa</button>
+      <button class="ingredient-btn" onclick="addIngredient('Tomate')">Tomate</button>
+      <button class="ingredient-btn" onclick="addIngredient('Cebola')">Cebola</button>
+      <button class="ingredient-btn" onclick="addIngredient('Azeitona')">Azeitona</button>
+      <button class="ingredient-btn" onclick="addIngredient('Orégano')">Orégano</button>
+      <button class="ingredient-btn" onclick="addIngredient('Catupiry')">Catupiry</button>
+    </div>
+    <button class="add-btn" onclick="addToCart()">Adicionar ao Carrinho</button>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-logo">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <script src="js/montagem.js"></script>
+</body>
+</html>

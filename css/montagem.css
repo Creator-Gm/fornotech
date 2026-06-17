@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  background-color: #780000;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  background-color: #780000;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.btn-voltar {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+.btnvoltar2 {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+.btn-finalizar {
+  background-color: #3D0D0D;
+  color: white;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.carrinho-bg {
+  background-color: #780000;
+  padding: 25px 10px;
+  text-align: center;
+}
+
+.carrinho-box {
+  background-color: #6B1515;
+  color: white;
+  display: inline-block;
+  padding: 12px 50px;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.beige-area {
+  background-color: #F5EDE0;
+  padding: 35px 10px;
+  text-align: center;
+}
+
+.cart-slots {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.cart-slot {
+  width: 85px;
+  height: 85px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: #333;
+  text-align: center;
+  line-height: 1.2;
+  padding: 4px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.build-title {  
+  color: white;
+  padding: 14px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.build-area {
+  background-color: #780000;
+  padding: 18px 10px;
+  text-align: center;
+}
+
+.yellow-box {
+  background-color: #F5A623;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.build-slots {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.build-slot {
+  width: 78px;
+  height: 92px;
+  background-color: #780000;
+ 
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  text-align: center;
+  line-height: 1.1;
+  cursor: pointer;
+  padding: 4px;
+  overflow: hidden;
+}
+
+.controls {
+  background-color: #780000;
+  padding: 12px 10px 18px;
+  text-align: center;
+}
+
+.controls-title {
+  color: #F5EDE0;
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+.ingredient-btn {
+  background-color: white;
+  color: #8B1E1E;
+  border: 1px solid #ddd;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.add-btn {
+  background-color: white;
+  color: #780000;
+  border: none;
+  padding: 8px 28px;
+  border-radius: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #780000;
+    
+  height: 48px;
+  position: relative;
+}
+
+.footer-logo {
+  position: absolute;
+  right: 12px;
+  bottom: 6px;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
